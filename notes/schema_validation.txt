@@ -1,0 +1,8 @@
+Why we need schema:
+
+1. It's a pain to get all the values from the body
+2. The client can send whatever data they want, which is a big issue
+3. The data isn't getting validated
+4. We ultimately want to force the client to send data in a schema that we expect
+
+Pydantic will help define our schema

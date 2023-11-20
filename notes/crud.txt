@@ -1,0 +1,9 @@
+C - Create - POST
+    @app.post("/posts")
+R - Read - GET
+    @app.get("/posts/{id}")
+    @app.get("/posts")
+U - Update - PUT/PATCH
+    @app.put("/posts/{id}")
+D - Delete - DELETE
+    @app.delete("/posts/{id}")

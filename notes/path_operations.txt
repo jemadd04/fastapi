@@ -1,0 +1,8 @@
+@my_awesome_api.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+@ signals a decorator
+'my_awesome_api' is the name of the instance
+.get is the method being called, with the path passed in the ()
+The async keyword is needed if asynchronous operations are being performed; otherwise, its optional.

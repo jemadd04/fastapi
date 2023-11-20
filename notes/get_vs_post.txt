@@ -1,0 +1,6 @@
+With a GET, you send request to API and API sends back data
+
+With a POST, you send data to the API server and API sends back data
+    Usually used for creating things
+    You might send relevant data, such as title, content, etc
+    API then sends a confirmation success message
