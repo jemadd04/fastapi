@@ -1,0 +1,48 @@
+A database is a collection of organized data that can be easily accessed and managed.
+
+We don't work or interact with databases directly; we use database management systems (DBMS).
+
+User ---Request---> DBMS ---> Database 
+
+Relational databases
+- MySQL
+- Postgresql
+- Oracle
+- SQL Server
+
+NoSQL
+- MongoDB
+- DynamoDB
+- Oracle
+- SQL Server
+
+Structured Query Language (SQL) - language used to communicate with DBMS
+    User --SQL--> DBMS ---> Database
+
+Postgres 
+- Each instance of postgres can be carved into multiple separate databases 
+- By default every Postgres installation comes with one database already created called 'postgres'
+- This is important because Postgres requires you to specify the name of a database to make a connection. So there needs to always be one database.
+
+Tables
+- A table represents a subject or event in an application
+- You may have a table for users, one for products, one for purchases, etc. 
+- A table is made up of columns and rows
+- Each column represents a different attribute (ID, name, age, etc.)
+- Each row represents a different entry in the table 
+
+Databases have datatypes just like any programming language 
+    Data Type       Postgres        Python
+    Numeric         Int, decimal    Int, float
+    Text            Varchar, Text   string
+    Bool            boolean         boolean
+    Sequence        array           list
+
+Primary Key
+- A column or group of columns that uniquely identifies each row in a table 
+- Table can have one and only one primary key
+- Usually the PK is a unique ID to ensure no duplicates
+- Doesn't have to be the ID column always. It's up to you to decide which column uniquely defines each record (such as email for example)
+
+Unique constraints
+- A unique constraint can be applied to any column to make sure every record has a unique value for that column

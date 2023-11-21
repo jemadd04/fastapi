@@ -8,3 +8,4 @@ Technology stack used:
 - Python
 - FastAPI
 - Pydantic for schema validation
+- Postgres
